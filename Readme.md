@@ -5,6 +5,9 @@
 
 This project demonstrates how to create a simple registration form with JavaScript validation. The form includes password confirmation and email validation to ensure users meet specific criteria before submitting the form.
 
+#check the site
+visit: https://admission-form-kpriet.netlify.app/
+
 ## Website Images
 | ![image 1](image/test1.png) | ![image 2](image/test2.png) | ![image 3](image/test3.png) | 
 |:-------------------:|:-------------------:|:-------------------:|

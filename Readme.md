@@ -29,8 +29,8 @@ This project demonstrates how to create a simple registration form with JavaScri
 1. **Clone the Repository**:
 
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/majipa007/Admission_Form.git
+    cd Admission_Form
     ```
 
 2. **Open `index.html`**:

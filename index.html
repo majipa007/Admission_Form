@@ -7,8 +7,87 @@
     <link rel = "stylesheet" href="style.css">
 </head>
 <body>
+    <div class="main">
+        <nav class="navbar">
+            <a href="#home" class="logo"></a>
+            <img src="kpriet.webp" alt="Logo" class="logo">
+            <h1>KPR <span>Admissions</span></h1>
+        </nav>
+        <div class="form">
+            <form class="f">
+                <div class="name">
+                    <label for="name">First Name:</label>
+                    <input class="input" type="text" id="fname" name="fname">
+
+                </div>
+                <div class="name">
+                    <label for="name">Last Name:</label>
+                    <input class="input" type="text" id="lname" name="fname">
+                
+                </div>
+                <div class="courses">
+                    <label for="course"><strong>Course:</strong></label>
+                    <select id="course" name="course" class="input">
+                    <option value="">--Select a Course--</option>
+                    <option value="computer-science">Computer Science</option>
+                    <option value="business-administration">Business Administration</option>
+                    <option value="mechanical-engineering">Mechanical Engineering</option>
+                    <option value="electrical-engineering">Electrical Engineering</option>
+                    <option value="arts">Arts</option>
+                    </select>
+                </div>
+                <div class="enter">
+                    <label for="course"><strong>Gender:</strong></label>
+                    <div class="gender_input">
+                        <label>
+                            <input type="radio" name="gender" value="male" required>
+                            Male
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="female" required>
+                            Female
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="other" required>
+                            Other
+                        </label>
+                    </div>
+                </div>
+                <div class="enter">
+                    <label for="phone"><strong>Phone Number:</strong></label>
+                    <input class="input" type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required>                
+                </div>
+
+                <div class="enter">
+                    <label for="address"><strong>Address:</strong></label>
+                    <input class="input" type="tel" id="address" name="address" placeholder="Coimbatore" required>                
+                </div>
+
+                <div class="enter">
+                    <label for="mail"><strong>E-mail:</strong></label>
+                    <input class="input" id="address" name="address" placeholder="person@gmail.com" required>                
+                </div>
+
+                <div class="enter">
+                    <label for="password"><strong>Password:</strong></label>
+                    <input class="input" type="password" id="address" name="address" required>                
+                </div>
+
+                <div class="enter">
+                    <label for="password"><strong> Re-Enter Password:</strong></label>
+                    <input class="input" type="password" id="address" name="address" required>                
+                </div>
+                <div class="button">
+                    <center><button type="submit"><h3>Register</h3></button></center>
+                </div>
+                
+            </form>
+        </div>
+
+    </div>
+    
     <div class="form">
-        
+
     </div>
 </body>
 </html>

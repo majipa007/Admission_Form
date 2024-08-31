@@ -1,0 +1,117 @@
+*{
+    font-family: "Helvetica";
+}
+:root{
+    --bg-color: #0091E9;
+    --second-bg-color: #82E9F0;
+    --text-color: #2C4F8E;
+    --second-text-color: green;
+    --font-family: "Courier";
+}
+body{
+    /* background-color: var(--second-bg-color); */
+    background-image: url('collegebg.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+}
+
+.main{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 100px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1200px) {
+    .main {
+        margin-left: 20px; /* Smaller margins on smaller screens */
+        margin-right: 20px; /* Smaller margins on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        margin-left: 10px; /* Even smaller margins on very small screens */
+        margin-right: 10px; /* Even smaller margins on very small screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+
+.navbar{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.navbar h1{
+    margin: 0;
+    color: #2C4F8E;
+}
+.navbar h1 span{
+    color: green;
+}
+.logo{
+    /* max-width: 50px; */
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+form{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    /* display: block; */
+}
+
+.form label{
+    color: var(--text-color);
+    font-weight: bold;
+}
+.form h2{
+    color: var(--second-text-color)
+}
+.name{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.courses{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.enter{
+    margin-bottom: 50px;
+
+}
+.gender_input label{
+    color: var(--second-text-color);
+}
+.button button{
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    color: var(--second-text-color);
+    background-color: white;
+    border-radius: 5rex;
+}
+
+.input{
+    margin-right: 10px;
+    color: var(--second-text-color);
+    font-family: var(--font-family);
+    font-weight: bold;
+    max-height: 20px;
+}

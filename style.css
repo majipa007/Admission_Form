@@ -10,7 +10,7 @@
 }
 body{
     /* background-color: var(--second-bg-color); */
-    background-image: url('collegebg.jpg'); /* Path to your background image */
+    background-image: url('image/collegebg.jpg'); /* Path to your background image */
     background-size: cover; /* Cover the entire page */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent image repetition */
@@ -29,16 +29,16 @@ body{
 
 @media (max-width: 1200px) {
     .main {
-        margin-left: 20px; /* Smaller margins on smaller screens */
-        margin-right: 20px; /* Smaller margins on smaller screens */
+        margin-left: 40px; /* Smaller margins on smaller screens */
+        margin-right: 40px; /* Smaller margins on smaller screens */
     }
 }
 
 @media (max-width: 768px) {
     .main {
-        margin-left: 10px; /* Even smaller margins on very small screens */
-        margin-right: 10px; /* Even smaller margins on very small screens */
-        padding: 10px; /* Adjust padding for smaller screens */
+        margin-left: 20px; /* Even smaller margins on very small screens */
+        margin-right: 20px; /* Even smaller margins on very small screens */
+        padding: 20px; /* Adjust padding for smaller screens */
     }
 }
 
